@@ -101,10 +101,10 @@ export default function Home() {
         <GoSignOut size={18} />
         <span>Logout</span>
       </div>
-      <div className="max-w-3xl mx-auto mt-10 p-8">
+      <div className="max-w-3xl mx-auto  p-8">
         <div className="bg-white -m-6 p-3 sticky top-0">
           <div className="flex justify-center flex-col items-center">
-            <span className="text-7xl mb-10">📝</span>
+            <span className="text-5xl mb-7">📝</span>
             <h1 className="text-5xl md:text-7xl font-bold">ToooDooo's</h1>
           </div>
           <div className="flex items-center gap-2 mt-10">
