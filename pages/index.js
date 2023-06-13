@@ -95,7 +95,7 @@ export default function Home() {
   ) : (
     <main className="">
       <div
-        className="bg-black text-white w-44 py-4 mt-10 rounded-lg transition-transform hover:bg-black/[0.8] active:scale-90 flex items-center justify-center gap-2 font-medium shadow-md fixed top-5 right-5 cursor-pointer"
+        className="bg-black text-white w-44 py-4 mt-10 rounded-lg transition-transform hover:bg-black/[0.8] active:scale-90 flex items-center justify-center gap-2 font-medium shadow-md fixed bottom-5 right-5 cursor-pointer"
         onClick={signOut}
       >
         <GoSignOut size={18} />
