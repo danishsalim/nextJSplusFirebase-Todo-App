@@ -21,7 +21,11 @@ const RegisterForm = () => {
   const signupHandler = async () => {
     if (!email || !password || !username) return;
     try {
-      const user = await createUserWithEmailAndPassword(auth, email, password);
+      const { user } = await createUserWithEmailAndPassword(
+        auth,
+        email,
+        password
+      );
       await updateProfile(auth.currentUser, {
         displayName: username,
       });
